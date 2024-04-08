@@ -17,7 +17,7 @@ if (environment.production) {
 // Function to create Apollo client
 export function createApollo(httpLink: HttpLink) {
   return {
-    link: httpLink.create({ uri: 'http://localhost:4000/graphql' }), // Replace with your GraphQL API URI
+    link: httpLink.create({ uri: 'https://one01379668-comp3133-assignment2.onrender.com/graphql' }), 
     cache: new InMemoryCache(),
   };
 }
