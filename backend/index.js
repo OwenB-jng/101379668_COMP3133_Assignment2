@@ -9,7 +9,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'https://comp3133a2-fk4bsy10b-owenb-jngs-projects.vercel.app', 
+  origin: 'https://comp3133a2-4xvdtyn0v-owenb-jngs-projects.vercel.app', 
 }));
 
 const server = new ApolloServer({
